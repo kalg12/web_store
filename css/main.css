@@ -1,0 +1,9 @@
+@import "variables.css";
+
+html{
+	background-color: var(--black);
+}
+h1{
+	color:  var(--white);
+	font size: var(--h1);
+}
