@@ -5,7 +5,8 @@
 	/* ===Colores=== */
 	--white: #fafafa;
 	--black: #101518;
-	--primary-color: #F04E6D;
+	--primary-color: cyan;
+	--second-color: salmon;
 
 	/* ===Tipografías=== */
 	--h1: 30px;
