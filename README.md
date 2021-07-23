@@ -16,4 +16,9 @@
 
 ------------
 
-# Sistema de diseño
+# Sistema de diseño (código)
+-variables
+-definición
+# Estructura de carpetas
+-Conectar librerías
+#variables de colecciones (objetos y arreglos) con javascript en una estructura sistemática.
