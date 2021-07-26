@@ -2,7 +2,7 @@
 ## Realizado por Kevin Luciano
 
 ## Objetivo
-
+# El objetivo de este proyecto web es una tienda online sobre artículos de bisutería: collares, aretes y pulseras. En este diseño se implementa lo aprendido durante el curso, sobre: HTML, CSS y JavaScript.
 
 ## Diagrama de información
 - Jerarquía de información
