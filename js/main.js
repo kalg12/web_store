@@ -1,25 +1,24 @@
-//Tipos de varialbes
-
-var texto = "Hola como estás";
-var x = 20; //númericas
-var flag = true; //bolean
-
-// #maria
-
-var starts=["hola","que onda","hey","Hi"];
-var chat=["¿ah sí?", ["a","b","c"], "apoco"];
-
-function saludar (){
-  console.log(starts[0]);
-
-}
-
-saludar()
+function Timer(duration, display) 
 {
-alert(starts[1]);
+    var timer = duration, hours, minutes, seconds;
+    setInterval(function () {
+        hours = parseInt((timer /3600)%24, 10)
+        minutes = parseInt((timer / 60)%60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+				hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.text(hours +":"+minutes + ":" + seconds);
+
+				--timer;
+    }, 1000);
 }
 
-
-//alert("Hola raza");
-
-//console.log(texto);
+jQuery(function ($) 
+{
+    var twentyFourHours = 24 * 60 * 60;
+    var display = $('#remainingTime');
+    Timer(twentyFourHours, display);
+});
